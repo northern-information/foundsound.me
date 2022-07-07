@@ -1,5 +1,23 @@
-.active {
-  font-weight: 800;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.waveform {
+  display: flex;
+  height: 400px;
+  width: 100px;
+  margin: 10px auto 10px auto;
+}
+
+#mc_embed_signup {
+  margin: auto;
+  width: 300px;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background: #0000FF;
+  width: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */
