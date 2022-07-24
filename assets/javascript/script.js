@@ -4,9 +4,13 @@ var wavesurfer1;
 document.addEventListener('DOMContentLoaded', function() {
   wavesurfer1 = WaveSurfer.create({
     container: document.querySelector('#waveform1'),
-    waveColor: '#0000FF',
-    progressColor: '#CCCCCC',
-    vertical: true
+    waveColor: '#4bd400',
+    progressColor: '#ffffff',
+    backend: 'MediaElement',
+    vertical: true,
+    barWidth: 2,
+    barHeight: 1,
+    barGap: null
   });
   wavesurfer1.on('error', function(e) {
       console.warn(e);
@@ -22,9 +26,13 @@ var wavesurfer2;
 document.addEventListener('DOMContentLoaded', function() {
   wavesurfer2 = WaveSurfer.create({
     container: document.querySelector('#waveform2'),
-    waveColor: '#0000FF',
-    progressColor: '#CCCCCC',
-    vertical: true
+    waveColor: '#4bd400',
+    progressColor: '#ffffff',
+    backend: 'MediaElement',
+    vertical: true,
+    barWidth: 2,
+    barHeight: 1,
+    barGap: null
   });
   wavesurfer2.on('error', function(e) {
       console.warn(e);
@@ -40,9 +48,13 @@ var wavesurfer3;
 document.addEventListener('DOMContentLoaded', function() {
   wavesurfer3 = WaveSurfer.create({
     container: document.querySelector('#waveform3'),
-    waveColor: '#0000FF',
-    progressColor: '#CCCCCC',
-    vertical: true
+    waveColor: '#4bd400',
+    progressColor: '#ffffff',
+    backend: 'MediaElement',
+    vertical: true,
+    barWidth: 2,
+    barHeight: 1,
+    barGap: null
   });
   wavesurfer3.on('error', function(e) {
       console.warn(e);
